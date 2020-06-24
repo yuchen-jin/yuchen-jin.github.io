@@ -13,7 +13,7 @@ h1 {
    -webkit-text-stroke: 1.25px #624c63;
 }
 
-h1#name-header {
+h1#big-name {
   padding-top: 2em;
   margin-block-end: 0.50em;
   font-weight: bold;
@@ -47,4 +47,26 @@ ul {
 
 li {
   display: inline;
+}
+
+div.gallery {
+  margin: 5em;
+  border: 1px solid #ccc;
+  float: left;
+  width: 10em;
+  margin-left: 10em;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 1em;
+  text-align: left;
 }
