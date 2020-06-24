@@ -49,12 +49,15 @@ li {
   display: inline;
 }
 
+div#art {
+  margin-left: 15em;
+}
+
 div.gallery {
   margin: 5em;
   border: 1px solid #ccc;
   float: left;
   width: 10em;
-  margin-left: 10em;
 }
 
 div.gallery:hover {
