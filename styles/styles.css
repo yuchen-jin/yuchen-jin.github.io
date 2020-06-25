@@ -1,9 +1,6 @@
 body {
   background-color: #f5ebeb;
   text-align: center;
-}
-
-* {
   font-family: "Lucida Console", Courier, monospace;
   color: #826982;
 }
@@ -33,15 +30,17 @@ div#links {
   text-align: right;
 }
 
-@media only screen and (min-width: 768px) {
-  div#bio {
-    margin-left: 15em;
-    margin-right: 15em;
-  }
+div#bio {
+  text-align: left;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
-div#bio{
-  text-align: left;
+@media only screen and (min-width: 992px) {
+  div#bio {
+    margin-left: 25em;
+    margin-right: 25em;
+  }
 }
 
 ul {
